@@ -1,0 +1,87 @@
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--dark-bg);
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url(../images/hero/hero_mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../images/hero/hero_mobile.jpg);
+  }
+
+  @media screen and (min-width: 577px) and (max-width: 767.98px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../images/hero/hero_tablet.jpg);
+  }
+
+  @media screen and (min-width: 577px) and (max-width: 767.98px) and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../images/hero/hero@2x_tablet.jpg);
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../images/hero/hero@2x_desktop.jpg);
+  }
+
+  @media screen and (min-width: 768px) and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url(../images/hero/hero_desktop.jpg);
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1600px;
+  }
+}
+
+.hero__title {
+  margin-bottom: 30px;
+
+  font-family: var(--main-font);
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+
+  @media screen and (max-width: 1199.98px) {
+    font-size: 26px;
+    line-height: 1.62;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}
