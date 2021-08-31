@@ -1,0 +1,23 @@
+{
+  "name": "js-course-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatianaYarmolenko/js-course-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatianaYarmolenko/js-course-practice/issues"
+  },
+  "homepage": "https://github.com/TatianaYarmolenko/js-course-practice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
