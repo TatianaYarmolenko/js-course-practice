@@ -5,6 +5,7 @@
       <ul class="grid">
          {{#each products}}
             <li class="grid__item">
+            <a href="/product/{{id}}">
                <article class="product">
                   <img class="product__image" src="{{image}}" alt="{{name}}" />
                   <h2 class="product__name">{{name}}</h2>
@@ -15,6 +16,7 @@
                      </svg>
                   </button>
                </article>
+            </a>
             </li>
          {{/each}}
       </ul>
